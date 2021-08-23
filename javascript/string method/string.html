@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var str = "javascript is age great language";
+        var h2 = " hello";
+        var a = str.length;//length method
+        document.write(a + "<br>");
+
+        var b = str.toLowerCase();
+        document.write(b  + "<br>");
+
+        var c = str.toUpperCase();
+        document.write(c + "<br>")
+
+        var d = str.includes("great")
+        document.write(d + "<br>")//this will print true
+        var e = str.includes("python")
+        document.write(e + "<br>")//this will print false
+        //includes are case sensetive
+        var f = str.startsWith("javascript")
+        document.write(f + "<br>")
+        //this is also case sensetive
+        var g = str.endsWith("age");
+        document.write(g + "<br>")
+        var h = str.search("age");
+        document.write(h + "<br>")
+
+        var i = str.match(/age/g);
+        document.write(i + "<br>")
+
+        var j = str.indexOf("age");
+        document.write(j + "<br>")
+
+        var k = str.lastIndexOf("age");
+        document.write(k + "<br>")
+
+        var l = str.replace("javascript","php");
+        document.write(l + "<br>")
+        
+        var m = str.trim();
+        document.write(m + "<br>")
+
+        var n = str.charAt("4");
+        document.write(n + "<br>")
+
+        var o = str.charCodeAt(12);
+        document.write(o + "<br>")
+
+        var p = str.concat(h2);
+        document.write(p + "<br>")
+
+        var q = str.split(" ");//the places where are spcace it will split now we and name it split from anywhere we want
+        document.write(q + "<br>")
+
+        var r = str.repeat(3);
+        document.write(r + "<br>")
+
+        var s = str.slice(2,18);
+        document.write(s + "<br>")
+
+        var t = str.substr(2,24);
+        document.write(t + "<br>")
+
+        var u = str.substring(7);
+        document.write(u + "<br>")
+
+        var v = str.toString();
+        document.write(v + "<br>")
+
+        var w = str.valueOf();
+        document.write(w + "<br>")
+
+    </script>
+</body>
+</html>

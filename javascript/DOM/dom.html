@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+</head>
+
+<body>
+    <style>
+        * {
+            margin: 0%;
+            padding: 0%;
+        }
+
+        #wrapper {
+            background-color: beige;
+            border: 1px solid black;
+        }
+
+        #header .abc {
+            background-color: #111;
+        }
+
+        .xyz {
+            background-color: green;
+        }
+
+        #header h1 {
+            background-color: beige;
+            right: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        img {
+            float: left;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: -2;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        /* Change the link color to #111 (black) on hover */
+        li a:hover {
+            background-color: #111;
+        }
+
+        .sidenav {
+            height: 58%;
+            width: 160px;
+            position: fixed;
+            z-index: 1;
+            top: 14%;
+            right: 0;
+            background-color: #111;
+            overflow-x: hidden;
+            padding-top: 20px;
+        }
+
+        .sidenav a {
+            padding: 6px 8px 6px 16px;
+            text-decoration: none;
+            font-size: 20px;
+            color: #818188;
+            display: block;
+        }
+
+        .sidenav a:hover {
+            color: #f1f1f1;
+        }
+
+        .img {
+            width: 80%;
+            height: 80%;
+        }
+
+        .footer {
+            position: fixed;
+            left: 0%;
+            bottom: 0;
+            width: 100%;
+            background-color: cadetblue;
+            color: white;
+            text-align: center;
+        }
+    </style>
+    <div id="wrapper">
+        <div id="header" class="abc , xyz">
+            <h1>JAVASCRIPT</h1>
+        </div>
+        <div id="menu">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Gallary</a></li>
+                <li><a href="">Contact Us</a></li>
+            </ul>
+            <div class="img">
+                <img src="	https://www.psdstack.com/wp-content/uploads/2019/08/copyright-free-images-750x420.jpg"
+                    alt="">
+                <div class="rig">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem sapiente molestiae nesciunt
+                        corporis
+                        eveniet incidunt illum esse iure nulla pariatur, sed enim earum id maiores quis optio, sunt
+                        ipsam
+                        possimus praesentium odio nisi. Omnis reiciendis dicta cum aliquid a architecto accusamus
+                        expedita
+                        quis fugiat officia sunt doloribus ipsam laudantium quam eos, qui tenetur alias odio enim
+                        minima.
+                        Vitae culpa corporis alias pariatur obcaecati doloremque nisi praesentium, magni ducimus quo
+                        laudantium distinctio odit fugit doloribus consequatur voluptates nam exercitationem placeat
+                        molestiae consectetur asperiores ab dignissimos! At nulla consectetur quia nihil accusantium
+                        quam
+                        corporis iure quos, eos quisquam laudantium voluptatibus quaerat exercitationem?</p>
+                </div>
+            </div>
+            <div class="sidenav">
+                <a href="">About</a>
+                <a href="">Contact us</a>
+                <a href="">galarry</a>
+                <a href="">services</a>
+            </div>
+            <div id="para">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta dolor hic quisquam eum veniam quos
+                    incidunt, ea non debitis excepturi dolore vitae impedit nesciunt doloribus quod. Similique sed
+                    debitis recusandae.</p>
+                <br>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil voluptates cupiditate, nulla libero odit
+                delectus corrupti voluptatum suscipit! Commodi magnam tempore voluptas debitis optio inventore nihil eos
+                sed velit incidunt?
+
+            </div>
+        </div>
+        <div class="footer">
+            <p> all rights reserved to @Pravin majhi</p>
+        </div>
+    </div>
+    <script>
+        var element;
+        element = document.all[11];//to target a specific value use braces
+        element = document.head;
+        element = document.body;
+        element = document.links;
+        element = document.getElementById("menu");
+        element = document.getElementsByClassName("footer");
+        element = document.getElementsByTagName("ul");
+        element = document.getElementById("header").innerText;
+        element = document.getElementById("header").innerHTML;
+        element = document.getElementById("header").getAttribute("id");
+        element = document.getElementById("wrapper").attributes[0];
+        //now lets set the value in DOM
+
+        element = document.getElementById("header").innerText = "hlo";
+
+        element = document.getElementById("header").innerHTML = "WOW";
+
+        element = document.getElementById("header").setAttribute("class", "xyz");
+        element = document.getElementById("header").removeAttribute("style");
+        element = document.getElementById("header").setAttribute("style", "border:10px dotted green;")
+
+        console.log(element);
+
+        element = document.querySelector("#header").innerHTML = "<h1>Hlo</h1>";
+        console.log(element);
+
+        element = document.querySelectorAll("#header h1")
+
+        console.log(element)
+
+        element = document.querySelector("#header").style.border;//get
+        console.log(element)
+        element = document.querySelector("#header").style.background = "red";//set
+        console.log(element)
+        element = document.querySelector("#header").className.xyz;//get
+        console.log(element)
+        element = document.querySelector("#header").className = "abc";//set
+        console.log(element)
+        element = document.querySelector("#header").classList;//get
+        console.log(element)
+        //it returns in array
+        element = document.querySelector("#header").classList.add("prc");//set
+        console.log(element)
+
+        element.getElementById("#header").onmouseenter = abc();
+        function abc() {
+            document.getElementById("header").style.background = "blue";
+        }
+        console.log(element)
+        document.getElementById("#header").addEventListener("click", abc);
+        element = document.getElementById("#header").removeEventListener("click", abc)
+        console.log(element)
+
+        var element;
+
+        document.getElementById("header").addEventListener("click",afc)
+        function afc() {
+           // document.getElementById("header").classList.add("xyz")
+           //document.getElementById("header").classList.remove("prc")
+           //document.getElementById("header").classList.length;
+           //document.getElementById("header").classList.toggle("abc")
+
+        }
+        console.log(element);
+
+        
+        var fc = document.getElementById("header").classList.item(0)
+        console.log(fc);
+
+        var a = document.getElementById("header").classList.contains("abc")
+        console.log(a);
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,112 @@
+DOM = Document Object Module
+
+see the image of DOM tree from the internet for bettter understanding;
+
+we can either GET or SET the value in javascript
+we can add new HTML element 
+we can delete HTML element
+
+DOM target method:-
+
+HOW TO target DOM Object:-
+
+ID ====>  document.getElementById(id);
+Class Name ===> document.getElementsByClassName(Name);
+Tag Name ===> document.getElementsByTagName(Name);
+//these 3 are mostly used targets 
+
+Other DOM Targeting Method:-
+
+*document                   *document.links 
+*document.all               *document.forms 
+*document.documentElement   *document.doctype
+*document.head              *document.URL
+*document.title             *document.baseURL 
+*document.body              *document.domain
+*document.image             *document.anchors 
+
+DOM querySelector ===> document.querySelector(css Selector)
+it will target the very first command given 
+querySelectorAll ===>document.querySelectorAll(css Selector)
+it will target all the Selector
+
+DOM CSS STYLING METHODS:-
+
+*Style
+*ClassName 
+*ClassList
+
+DOM EVENT LISTENER()
+*we can add events attribute on dom 
+
+DOM classlist method:-
+add(class1,class2)
+remove(class1,class2)
+toggle(class)
+contains(class)
+item(index)
+length
+
+DOM Traversal methods
+
+*parentNode *lastchild
+*ParentElement *LastElementChild
+*Childern *NextElementSibling 
+*ChildernNode *NextSilbling 
+*ChildNode *previousElementSibling
+*firstchild *previousElementSibling 
+*FirstElementChild *PreviousSilbling
+
+DOM Create methods:
+
+tag ===> <p></p> ===> CreateElement
+
+Text ===> this is a text ===> CreateTextNode 
+
+comment ===>  <!--just comment ---> ====>CreateComment
+
+
+DOM Append Methods:-
+
+*appendChild
+
+*InsertBefor
+
+DOM Insert Adjecent :-
+*insertAdjecentElement
+*insertAdjecentHtml
+*insertAdjecentText
+
+DOM insertAdjecent Position:-
+
+*beforbegin 
+*afterbegin 
+*beforend
+*afterend
+
+DOM Replace & and Remove Method:-
+*ReplaceChild
+*RemoveChild
+
+DOM contains()
+to find child pr grandchild in Parent div and gives answer either in true or false
+
+DOM hasAttribute() method:-
+
+it checks if there is any related attribute and gives answer in either true or false
+
+DOM haschildNode() method:-
+
+it checks in child and if it finds any childNode it will return true an dif nit there than it will 
+return false
+
+DOM isEqualNode() method:-
+
+this is used to comapare it will also give either true or false
+criteria are:-
+*same NodeType
+*same NodeName
+*same Nodevalue
+*same ChildNode
+*same attribute
+*same attribute value

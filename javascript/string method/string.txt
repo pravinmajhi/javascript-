@@ -1,0 +1,10 @@
+JAVASCRIPT STRING METHOD:-
+
+*Length *indexof() *concat() 
+*tolowercase() *lastindexof() *split() 
+*touppercase() *replace() *repeat() 
+*includes() *trim() *slice() 
+*startswith() *charAt() *substr() 
+*endswith() *charcoadat() *substring()
+*search() *fromCharcoad() tostrang() 
+*match() *valueof() 

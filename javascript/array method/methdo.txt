@@ -1,0 +1,18 @@
+JAVASCRIPT ARRAY METHODS:-
+
+*sort() *slice() *find() 
+*reserve() *splice() *findindex()
+*pop() *isArray() *includes() 
+*push() *indexof() *some() 
+*shift() *lastindexof()  *forEach() 
+*unshift() *entires() *toString() 
+*concat() *every() *valueOf() 
+*join() *filter() *fill()
+
+1.sort() = it helps us to sorting in alphabitacal order
+example:-
+before sort = karan,sanjay,ajay,vijay
+after sort = ajay,karan,sanjay,vijay
+
+3.pop() = it targets and delete the last value
+4. push() = it adds the new value on last place

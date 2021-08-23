@@ -1,0 +1,7 @@
+*number()
+*parselnt()
+*parseFloat()
+*isfinite()
+*isinteger()
+*tofixed(x)
+*toprecision(x)

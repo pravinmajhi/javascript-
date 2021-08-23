@@ -1,0 +1,53 @@
+What is Opp?
+Object Oriented Programming (ES6 Version)
+
+coding methodology/style/pattern
+
+*code more modular and reusable
+*well organised code
+*easier to debug
+*best for medium to large website
+
+
+class Object
+
+
+What is Properties & and Methods?
+
+Properties ==> variables and all
+
+Methods ==> functions
+
+declare class 
+
+class hello{
+    message(){   ===> we can do multiple Methods
+        console.log("hello world")
+    }
+}
+let a = new hello(); //this is Object
+
+a.message();
+
+
+Types of Method:
+
+constructor ===> constructor(){
+    console.log("hello")
+}
+Prototype ===> message(){
+    console.log("hello")
+}
+Stctic ===> Stctic name (){
+    console.log("hello")
+}
+
+what is inheritance?
+
+Class A  = base class
+
+class B  = derived class
+
+with the help of inheritance we can use eachother Properties and Methods
+
+

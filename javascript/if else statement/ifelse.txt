@@ -1,0 +1,24 @@
+as we know that in if statement 
+if the statementis true it used to be print
+and if false it used to be pass/out the statement
+
+but on  IF ELSE statement the other statement will be printed 
+inshort anyhow the will be statement print 
+
+how to write the statement in javascript:
+
+if (condition true){
+    statement for true
+}else {
+    statement for false
+}
+
+example:
+var x = 15;
+if (x > 30){
+    document.write("X is greater ")
+    //as it is a false statement it won't print
+}else{
+    document.write("X is smaller");
+    // this will print because upper statement was false
+}

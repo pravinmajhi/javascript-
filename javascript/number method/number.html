@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var a = "99";
+        var num = Number(a);//this is function to convert anything to number
+        document.write(num + 20 + "<br>")
+
+        var num = parseInt(a);
+        document.write(num + "<br>")
+
+        var z = "10.33";
+
+        var num = parseFloat(z);
+        document.write(num + "<br>")
+
+        var t = 100;
+        var num = isFinite(t);
+        document.write(num + "<br>")
+
+        var y = 6873;
+        var num = Number.isInteger(y)
+        document.write(num + "<br>")
+
+        var o = 46.79;
+        var num = o.toFixed(1);
+        document.write(num + "<br>")
+
+        var f = 8.6393;
+        var num = f.toPrecision(4)
+        document.write(num)
+    </script>
+</body>
+
+</html>

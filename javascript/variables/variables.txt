@@ -1,0 +1,27 @@
+USE OF VARIABLES:-
+a = pravin 
+
+document.write (a);
+document.write (a);
+document.write (a);
+document.write (a);
+
+if there is error and now have to change than simply edit 
+the a = pravin to desired change 
+example : a = pravin to 
+            a = pravins 
+
+
+THREE TYPES OF VARIABLES:-
+1. Var 
+2. Let 
+3. Const
+
+HOW TO WRITE A VARIABLES NAME :-
+1. WRITE WAY   2. WRONG WAY
+
+*firstname       *99firstname 
+*first_name       *first name
+*first-name 
+*firstName 
+*firstname99

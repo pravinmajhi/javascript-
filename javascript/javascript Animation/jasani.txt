@@ -1,0 +1,13 @@
+Javascript Animation
+
+*setintervel(functionName,millisecod)
+
+1000ms = 1sec
+
+*clearinterval()  ("TO stop intervel")
+
+*setTimeout() & clearTimeOut()
+
+setTimeout(functionName,millisecod)
+
+clearTimeOut() ("TO stop timeout)

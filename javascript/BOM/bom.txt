@@ -1,0 +1,60 @@
+BOM = Browser Object Model
+
+some web browser name 
+!Chrome
+!Firefox
+!Opera
+!Internet Explorer
+!Edge
+
+Things we can do with BOM:-
+*Get width & Height of browser window 
+*Open & close browser window
+*move & Resize window
+*Scroll to Browser Window 
+* Get Url , Hostname , Protocal of Browser Window
+*Get history of Browser window
+
+Window Height & Width Method :- 
+
+*innerHeight 
+*innerwidth
+*outerheight
+*outerwidth
+
+window Open & clsoe Method:
+
+window.Open(url,name,specs)
+
+window moveBy & moveTo:
+
+
+window Resizeby() & ResizeTo()
+
+window scrollTo & scrollBy
+for vertical we have to use y-axis value 
+now for going up we have to give value in (-)
+for dowm +
+
+for horizontal scroll we have to use x-axis value
+for left side (-)
+for right side ( + )
+
+Location Object Properties:-
+
+*hash 
+*host
+*Hostname
+*href
+*origin
+*pathname 
+*Protocal
+*port 
+*search
+
+
+Methods of Location Object:-
+
+assign()
+reload()
+Replace()

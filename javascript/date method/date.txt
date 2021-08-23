@@ -1,0 +1,10 @@
+var now = new Date();
+
+*toDateString() *getmilisecod()
+*getDate()      *setDate() 
+*getFullYear()  *setFullYear()
+*getMonth()     *setHours()
+*getDay()       *setmilisecond() 
+*getHours()     *setminutes() 
+*getminutes()    *setMonth()  
+*getsecond()     *setSecond() 

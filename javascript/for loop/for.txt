@@ -1,0 +1,7 @@
+FOR LOOP SYNTAX IN JAVASCRIPT:-
+
+for(var a = 1; a < = 10; a++){
+    statement
+}
+
+//most of developer and programmer use this loop beacuse its easy to use 

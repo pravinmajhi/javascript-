@@ -1,0 +1,23 @@
+how to work with Modules?
+
+file1.js ===> 
+export let name = "Any Name"
+export function hello{
+
+}
+export class user {
+
+}
+
+File2 ===>
+import{name} from './file1.js'
+import{hello} from './file1.js'
+import{user} from './file1.js'
+
+console.log(name);
+hello()
+let a = new user();
+
+How To Use In Html
+
+<script type = "Module" src = "./file1..js"></script>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+        }
+        #test{
+            position: relative;
+            top: 45%;
+            left: 25%;
+            width: 600px;
+            height: 200px;
+            background: yellow;
+        }
+    </style>
+    <h1>NAME :  DOM Create Method</h1>
+
+    <div id="test"></div>
+    <script>
+        var a = document.createElement("p");
+        console.log(a);
+        var b = document.createTextNode("hello");
+        console.log(b);
+        var c = document.createComment("this is comment");
+        console.log(c);
+
+        var newElement = document.createElement("h1");
+
+        var newText = document.createTextNode("hello text")
+
+        newElement.appendChild(newText);
+
+        document.getElementById("#test").appendChild();
+
+        console.log(newElement)
+
+        var d = document.createElement("h2");
+
+        var f = document.createTextNode("this is a text node");
+
+        d.appendChild(f);
+        var target = document.getElementById("test");
+        target.insertAdjacentElement("beforebegin",d);
+        console.log(target)
+
+    </script>
+</body>
+</html>

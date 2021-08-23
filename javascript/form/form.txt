@@ -1,0 +1,9 @@
+Javascript Form Events:-
+
+*Keydown    *select 
+*Keypress   *submit
+*Keyup      *invalid
+*Focus()
+*blur()
+*input
+*change

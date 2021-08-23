@@ -1,0 +1,10 @@
+operators          |      Description
+                   | 
++                  |        addition
+-                  |        Subtraction
+*                  |        Multiplacion
+**                 |        Exponentiation
+/                  |        division
+%                  |        Modulus(Reminder)
+++                 |        Increment
+--                 |        Decrement

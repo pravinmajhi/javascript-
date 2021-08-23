@@ -1,0 +1,24 @@
+LOOPIS DIVIVDED IN 3 PARTS:-
+
+1. Initlization
+
+2. condition 
+
+(now if false the loop will be out)
+
+if True than there will be either increment / decrement
+
+TYPE OF LOOPS IN JAVASCRIPT :-
+*while loop
+*do/while loop
+* for loop
+for/in loop(objects)
+forEach(Array)
+
+WHILE LOOP SYNTAX IN JAVASCRIPT:-
+
+var a = 1;
+while(a <= 10){
+    document.write("name or statement");
+    a = a + 1;
+}

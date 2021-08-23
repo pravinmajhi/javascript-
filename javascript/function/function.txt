@@ -1,0 +1,13 @@
+*Sometime we have to write a particular statement again and again at due to long statements
+we can't write again so we use functions
+
+HOW TO WRITE FUNCTION SYNTAX IN JAVASCRIPT?
+
+function functionName(){
+    statement
+}
+
+now when ever we want to call for function we can call by typing there 
+functionName()
+
+after defining the function we can call as many time we want

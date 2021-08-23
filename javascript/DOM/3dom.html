@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul id="list">
+        <li>orange</li>
+        <li>mango</li>
+        <li>banana</li>
+        <li>grapes</li>
+        <li>apple</li>
+    </ul>
+
+    <ul id="list2">
+        <li>tamato</li>
+        <li>cabbage</li>
+    </ul>
+    <script>
+        var newElement = document.createElement("li");
+        var newText = document.createTextNode("DOM")
+
+        newElement.appendChild(newText);
+        var target = document.getElementById("list");
+        var oldelement = target.children[0];
+
+       // console.log(oldelement);
+
+        target.replaceChild(newElement,oldelement)
+
+        //NOW REMOVE TAG
+
+        var a = document.getElementById("list")
+        var b = target.children[2]
+
+        target.removeChild(b);
+
+        //clone node
+
+        var c  = document.getElementById("list").children[1];
+        var d = c.cloneNode(true);
+
+        
+
+        document.getElementById("list2").appendChild(d);
+        console.log(d)
+
+        //isEqualNode
+
+        var tag = document.getElementById("list").firstElementChild;
+
+        var tag2 = document.getElementById("list2").firstElementChild;
+
+        var equal = tag.isEqualNode(tag2);
+
+        console.log(equal);//the answer return is false
+
+        ///lets go for True
+        var tar1 = document.getElementById("list").children[1];
+
+        var tar2 = document.getElementById("list2").children[2];
+
+        var equal2 = tar1.isEqualNode(tar2);
+
+        console.log(equal2);//the answer return is true
+    </script>
+</body>
+</html>

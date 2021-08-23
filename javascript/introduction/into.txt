@@ -1,0 +1,38 @@
+
+WEB BASED SCRIPTING:-
+
+1. client side script     2. server side script
+.Vb script                 .PHP
+.javascript                .PYTHON 
+                            .net
+
+WHY WE LEARN JAVASCRIPT?
+*javascript is a Event based programming launguage*
+
+1. click 2. , key press , 3. double click 
+4. key up ,5. rightclick , 6. load 
+7. mouse hover , 8. unload , 9. mouseout 
+10. resize , 11. drag Drop , 12. scroll
+
+BENEFITS OF JAVASCRIPT:
+1.web development
+2.desktop development
+3.mobile app development
+
+
+''1=jquary , Angular js , react js , veu js,  nodejs
+''2=electron js 
+''3=  Angular js , react js , veu js,  nodejs , reactnetive
+
+
+USE OF JAVASCRIPT IN WEB DEVELOPMENT :
+*Droupdowm menu * video player
+*Animated slider * Zoom effect
+*Maps *Animated Gallery
+*Chart Garph *Form valadation
+*pop up window * Accodeions 
+*Audio player *calender
+
+SOFTWARE REQURIENMENT FOR JAVASCRIPT:-
+1. Html editor 
+2. web browser

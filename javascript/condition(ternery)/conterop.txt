@@ -1,0 +1,13 @@
+WHAT IS TERNARY OPERATORS?
+
+as it is condition based so answer will be either true or false
+
+How to write
+(condition)? True statement : false statement
+
+example:
+var x = 15;
+var z;
+
+(x > 10)? z = "true": z = "false" ;
+document.write(z);

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function sum (name,...args){
+            console.log(arguments);
+
+            document.write(`hello ${name} : `);
+
+            let sum = 0 ;
+            for(let i in args){
+                sum += args[1];
+            }
+            document.write(sum);
+        }
+        var arr = [20,30,30]
+        sum("world", ...arr)
+        ///(...)//this is spread operator that will spread the value
+
+        var err = [53,46,28,47]
+
+        console.log(err)
+
+        var arrey2 = [...err];//now the cloning has been stoped
+        err.push(60);//push method to add item
+        console.log(arrey2);
+
+        var arrr = err.concat(arrey2);
+
+        //we can do by spread operatoer too
+
+        //var arrr = [5,...err, ...arrey,75];//we can add also
+
+        console.log(arrr)
+
+        var obj1 = {
+            name : "name",
+
+        };
+        var obj2 = {
+            age: "56"
+        }
+
+        var obj3 = {...obj1,...obj2}
+
+        console.log(obj3)
+    </script>
+</body>
+</html>

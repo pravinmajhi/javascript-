@@ -1,0 +1,20 @@
+To change some statement within the functions we use function with peremeter
+
+example :
+function sum (a , b){
+    document.write(a + b);
+
+}
+sum (10,20)
+
+sum(30,40)
+
+HOW TO WRITE ?
+
+function functionName(peremeter1,peremeter2){
+    statement
+}
+
+calling of function?
+
+functionName(argument1,argument2);

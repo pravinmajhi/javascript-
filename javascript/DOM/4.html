@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        #test{
+            display: grid;
+            align-items: center;
+            justify-content: center;
+            background: yellow;
+            margin: 2px;
+            padding: 2rem;
+            width: 100%;
+            overflow: hidden;
+        }
+        h2{
+           position: relative;
+           left:45%;
+           font-size: 23px;
+        }
+    </style>
+    <div id="test">
+        <h2>JAVASCRIPT</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi consequuntur nulla vel beatae? Illum ea ab
+            error quas veniam rem, provident iusto vitae minus eaque nobis ducimus animi ex quidem?</p>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa optio maiores doloremque illo delectus. Animi
+            officiis natus aspernatur quia, suscipit, molestias dolores soluta doloremque voluptatum vel officia
+            asperiores voluptates incidunt!
+
+        </p>
+    </div>
+    <script>
+        var parentElement = document.getElementById("test")
+        var target = document.getElementById("abc")//this will show false
+
+        var find = parentElement.contains(target);
+
+        console.log(find)
+
+       var a = document.getElementById("test")
+       var b = a.hasAttribute("class");
+
+       console.log(b)//this is will also give false beacuse there is no class attribute in document
+
+       var cd = document.getElementById("test");
+
+       var d = cd.hasChildNodes();
+
+       console.log(d);//it will give return true console
+    </script>
+</body>
+
+</html>

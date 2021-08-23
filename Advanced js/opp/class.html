@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        class hello {
+            message() {
+                console.log("hello everyone")
+            }
+        }
+        let a = new hello();
+
+        a.message()
+
+        class student {
+            constructor(name, age) {
+                this.studentname = name;
+                this.studentage = age
+                console.log("constructor function")
+            }
+            hello() {
+                document.write(`hello  ${this.studentname}
+                your are is  ${this.studentage} `);
+            }
+            static staticmethod() {
+                console.log("staic function")
+            }
+        }
+        let b = new student("name", 45);
+        b.hello();
+        // b.staticmethod()//this will give error
+        student.staticmethod();
+
+
+        class employe {
+            constructor(name, age, salary) {
+                this.empname = name;
+                this.empage = age;
+                this.empsalary = salary;
+                console.log("constructor : Employee ")
+            }
+            info() {
+                let ta = 1000
+                let pa = 300
+                let totalsalary = this.empsalary + ta + pa;
+                document.write(`<h3>Employee Class</h3>
+                                Name: ${this.empname} <br>
+                                Age: ${this.empage} <br>
+                                salary: ${this.empsalary} <br>`)
+            }
+        }
+
+        class mamager extends employe {
+            info() {
+                let ta = 1000
+                let pa = 300
+                let totalsalary = this.empsalary + ta + pa;
+                document.write(`<h3>Manager Class</h3>
+                                Name: ${this.empname} <br>
+                                Age: ${this.empage} <br>
+                                salary: ${totalsalary} <br>`)
+            }
+        }
+
+        let c = new employe("yahooo baba", 35, 30303)
+        let d = new employe("GOOGLE baba", 56, 30303)
+
+         c = new mamager ("yahooo baba", 35, 6000000)
+
+        c.info();
+        d.info();
+    </script>
+</body>
+
+</html>

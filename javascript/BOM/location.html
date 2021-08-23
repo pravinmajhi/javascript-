@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>javascript:Location Object</h2>
+    <button onclick="newFunction()">click</button>
+    <button onclick="reloadd()">reload</button>
+    <button onclick="asssign()">Assign</button>
+    <button onclick="replash()">replace</button>
+    <script>
+        console.log(location)//gives the property 
+        console.log(location.host);//targets in location
+        //we can target this way an find other location property
+
+        document.write(location.href)//we can print in document as well
+
+    //Now we can set property also
+        
+        function newFunction(){
+            location.href = "http://.google.com"
+        }
+        function reloadd(){
+            location.reload();
+        }
+        function asssign(){
+            location.assign("https://www.google.com");
+        }
+        function replash(){
+            location.replace();
+        }
+    </script>
+</body>
+</html>

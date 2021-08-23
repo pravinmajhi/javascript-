@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        #test {
+            width: 150px;
+            height: 150px;
+            background: red;
+        }
+    </style>
+    <div id="test"></div>
+    <button onclick="stopanimation()">stop</button>
+    <script>
+        var a = 0;
+        var id = setInterval(anim, 1000);//SetIntervel
+
+        function anim() {
+            a = a + 10;
+            if (a == 200) {
+                clearInterval(id);//ClearInterval
+            } else {
+                var target = document.getElementById("test");
+
+                target.style.marginLeft = a + "px";
+            }
+        }
+
+        var rp = setTimeout(anime, 3000);
+        function anime() {
+            var tar = document.getElementById("test");
+            tar.style.width = "500px"
+        }
+
+        function stopanimation(){
+            clearTimeout(rp);
+        }
+    </script>
+</body>
+
+</html>

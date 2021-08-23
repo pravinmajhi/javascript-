@@ -1,0 +1,11 @@
+write consol.log and now you can perform all action on consol
+
+*All errors and problems will be shown on console
+
+
+*Now to open console Do right click than go to inspect and you 
+can find console
+
+
+*we can target an html  or certain files throught the 
+getelementby function

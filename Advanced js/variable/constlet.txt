@@ -1,0 +1,14 @@
+Different Type Of Variable :
+
+var   let    const
+
+var x = "hello"; let x = "hello"; const x = "hello";
+
+if(condition){              if(condition){                      if(condition){
+                                let x = "hello";                    const x = "hello"
+    var x = "hello";         }                                      }
+                                   document.write(x);               document.write(x)
+}
+document.write(x)                                                   const is Block Scope
+                                let is Block Scope
+var is Global Scope

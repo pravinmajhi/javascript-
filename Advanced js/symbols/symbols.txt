@@ -1,0 +1,20 @@
+Data Types
+
+*String 
+*Number
+*Boolean
+*Array
+*Object 
+*Null
+*Undefined
+SYMBOLS
+
+var x = "hello world"  ===>String
+var x = 67  ===>Number
+var x = true;/false;  ===>Boolean
+var x = ["Html","Css","jAVASCRIPT"]  ===>Array
+var x = {first:"name", last"name",}  ===>Object
+var x = Null  ===>Null
+var x =     ===>Undefined
+
+var x = symbol();

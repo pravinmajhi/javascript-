@@ -1,0 +1,26 @@
+if condition is false than output is false (won't run)
+
+if condition is true statement (will run)
+
+example:-
+if today is monday 
+↪print "mon"
+if its not than javascript will out the statement
+
+who to write ?
+if (condition){
+    ______......
+}
+
+example:-
+for true condition
+var x = 15;
+if (x > 10){
+    document.write("x ix greater than 10");
+}
+for false condition 
+var x = 5;
+if (x > 10){
+    document.write("X is greater");
+    //* this will not print in such condition
+}

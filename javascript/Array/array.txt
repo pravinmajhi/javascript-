@@ -1,0 +1,7 @@
+Array helps us to add multiple value in a variable
+
+Syntax is writting Array
+var a = [10,20,30];
+
+there are index alloted to Array index is used to select the desired value
+it start with 0

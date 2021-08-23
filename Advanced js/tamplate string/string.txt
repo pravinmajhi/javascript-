@@ -1,0 +1,11 @@
+Template String or Tamplate Literals
+
+var user = "ypur name"
+
+var greet = "hello" + user
+
+Tamplate String :-
+
+var user = "ypur name"
+
+var greet = `hello ${user};

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // function *generatorit(){
+        //     console.log(`first message`);
+        //     yield `number 1`;
+        //     console.log(`second message`)
+        //     yield `number 1`;
+        // }
+
+        // let g = generatorit();
+        // console.log(g.next());
+
+        // function *generat(){
+        //     let nextNum = 300;
+        //     while(true) {
+        //         yield(nextNum++);
+        //     }
+        // }
+        // let n = generat();
+        // console.log(n.next().value);
+        // console.log(n.next().value);
+        // console.log(n.next().value);
+        // console.log(n.next().value);
+        // console.log(n.next().value);
+        // console.log(n.next().value);
+        // console.log(n.next().value);
+
+        // for(let value of n){
+        //     if(value > 305) break;
+        //     console.log(value)
+        // }
+
+        // function *generatorit(){
+        //     let result = (yield) * 500;
+        //     console.log(`result :  ${result}`);
+
+        // }
+        // let g =generatorit();
+        // g.next();
+        // g.next(500)
+        function *generatorit(){
+            yield 55;
+            yield* [`Node` , `Angular`, `react`]
+        }
+        let g =generatorit();
+        console.log(g.next());
+        console.log(g.next());
+        console.log(g.next());
+        console.log(g.next());
+        console.log(g.next());
+        console.log(g.return('ending now'));
+        
+    </script>
+</body>
+</html>

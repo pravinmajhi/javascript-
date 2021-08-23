@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>History Object</h2>
+    <button onclick="backfunction()">back</button>
+    <button onclick="forwadfunction()">forward</button>
+    <button onclick="Gofunction()">Go</button>
+    <script>
+        console.log(history);//here we can see all the history related property and method
+
+        //Method of hitory
+        function backfunction(){
+            history.back()
+        }
+        function forwadfunction(){
+            history.forward()
+        }
+
+        function Gofunction(){
+            history.go()//(-)anynumber will go back and (+)anynumber it will go forward
+        }
+    </script>
+</body>
+</html>

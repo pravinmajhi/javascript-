@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        * {
+            margin: 0%;
+            padding: 0%;
+        }
+
+        #outer {
+            display: grid;
+            justify-content: center;
+            margin: 2px;
+            background: yellow;
+            padding: 2px;
+            border: 2px solid green;
+        }
+
+        h2 {
+            color: black;
+            font-size: 20px;
+        }
+
+        #inner {
+            background: cadetblue;
+            margin: 3px;
+            padding: 3px;
+        }
+
+        div {
+            box-sizing: content-box;
+            border: 1px solid green;
+        }
+
+        #child-c {
+            float: left;
+            display: grid;
+            place-content: center;
+            width: 200px;
+            height: 100px;
+            background: hotpink;
+            font-size: 30px;
+        }
+    </style>
+    <div id="outer">
+        <h2>outer</h2>
+        <div id="inner">
+
+            <div style="width: 200px; height: 100px; background: coral; font-size: 30px; display: grid;
+            place-content: center; float: left;">A</div>
+            <div style="width: 200px; height: 100px; background: coral; font-size: 30px; display: grid;
+            place-content: center;float: left;">B</div>
+            <div id="child-c">C</div>
+            <div style="width: 200px; height: 100px; background: coral; font-size: 30px; display: grid;
+            place-content: center; float: left;">D</div>
+            <div style="width: 200px; height: 100px; background: coral; font-size: 30px; display: grid;
+            place-content: center;">E</div>
+        </div>
+    </div>
+    <script>
+        var a = document.getElementById("inner").parentElement;//shows the parent element
+        console.log(a);
+        var b = document.getElementById("inner").parentElement.style.background = "red";
+        console.log(b)
+        var c = document.getElementById("child-c").parentNode;
+        console.log(c)
+        var d = document.getElementById("outer").children;
+        console.log(d)
+        var e = document.getElementById("outer").children[1].style.background = "yellow";
+        console.log(e)
+        var f = document.getElementById("child-c").childNodes;//it returns text nodes as well
+        console.log(f)
+        var g = document.getElementById("inner").firstElementChild.innerHTML;
+        console.log(g)
+        var h = document.getElementById("inner").firstElementChild.style.background = "pink";
+        console.log(h)
+        var i = document.getElementById("inner").lastElementChild.innerHTML;
+        console.log(i)
+        var j = document.getElementById("inner").lastElementChild.style.background = "blue";
+        console.log(j)
+        var k = document.getElementById("inner").firstChild;//it targets everything in firstchild
+        console.log(k)
+        var l = document.getElementById("inner").lastChild;
+        console.log(l)
+        var m = document.getElementById("child-c").nextElementSibling;
+        console.log(m)
+        var n = document.getElementById("child-c").previousElementSibling;
+        console.log(n)
+        var o = document.getElementById("child-c").nextSibling;
+        console.log(o)
+        var p = document.getElementById("child-c").previousSibling;
+        console.log(p)
+    </script>
+</body>
+
+</html>

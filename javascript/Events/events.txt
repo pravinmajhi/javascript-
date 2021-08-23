@@ -1,0 +1,9 @@
+SOME BASIC EVENTS NAME:-
+
+*click (onclick)                *key press(onkeypress)
+*double click(ondblclick)       *key up(onkeyup) 
+*right click(oncontextmenu)     *load(onload) 
+*mouse hover(onmousehover)      *unload(onload) 
+*mouse out(onmouseout)          *resize(onresize) 
+*mouse down(onmousedowm)        *scroll(onscroll)
+*mouse up(onmouseup) 

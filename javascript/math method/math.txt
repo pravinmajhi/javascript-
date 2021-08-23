@@ -1,0 +1,8 @@
+IT IS MOSTLY USED IN GAME DEVELOPMENT AND COMPLEX ACCOUNTING DEVELOPMENT
+
+*celi(x) *sqrt(x) 
+*floor(x) *cbrt(x)
+*round(x) *pow(x,y)
+*trunc(x) *random()
+*max(x,y,z,....,n) *abs(x)
+*min(x,y,z....,n)  *pI

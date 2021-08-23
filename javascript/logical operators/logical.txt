@@ -1,0 +1,35 @@
+WHAT IS LOGICAL OPERATORS?
+
+if ----> condition 1 ----> false 
+if ----->condition 2 ----->false
+            |
+            |
+            ⬇
+          True
+            |
+            |
+            ⬇
+        Statement
+
+DIFFERENT TYPE OF LOGICL OPERATORS:-
+OPERATORS        NAME 
+&&           Logical AND
+||           Logical OR
+!            Logical NOT
+
+if Statement with Logical AND:
+if (condition1 && condition2){
+    //RUN ONLY WHEN BOTH CONDITION MUST BE TRUE
+}
+
+if Statement with Logical OR:
+if (condition1 || condition2){
+    //RUN ONLY WHEN EITHER ONE CONDITION MUST BE TRUE
+}
+
+if Statement with Logical NOT:
+if !(condition){
+    // IT WILL GIVE ANSWER IN REVERSE ORDER 
+    example IT WILL GIVE TRUE FOR false Statement
+    AND false FOR TRUE Statement
+}

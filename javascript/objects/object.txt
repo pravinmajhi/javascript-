@@ -1,0 +1,17 @@
+WHAT IS OBJECT?
+
+objects are store in {
+
+} curly braces
+
+and in objects value is identified as name ;
+
+ON objects we can't print directly on document 
+we have to add (var.property)
+ to print
+
+another way of writing object;
+example
+var a = newobject()
+a.firstname : "ram"
+a.lastname : "kumar"

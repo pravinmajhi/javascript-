@@ -1,0 +1,20 @@
+example :-
+
+var x = 15;
+var y = 25;
+
+x > y (false)
+
+*statement is either true or false
+
+different type of comparision operators
+
+operators   description
+==        |     equal to
+===       |     equal value and equal type
+!=        |      not equal
+!==       |     not equal value or not equal type
+>         |      greater than
+<         |      less than
+>=        |     greater than or equal to
+<=        |       less than or equal to

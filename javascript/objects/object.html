@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        //we have to go to console to view property of objects 
+        var a = {
+            fname: " your",
+            lname:"naam",
+            age: 25,
+            email : 'xyz@gamil.com',
+            //now lets add array
+            favmovies: ['batman','joker','lakshay'],//array
+            salary : function(){//Function
+                return 25000;
+            },
+            fullname : function(){
+                return fname + " " + lname;
+            },
+            fulname : function(){
+                return this.fname + " " + this.lname;
+            },
+            livivng :{//we can add object inside object
+                country : "india",
+                city : "legocity",
+            }
+        }
+        //document.write(a);//the print will be of [objet Object];
+        console.log(a)//we can see all object with property on console
+        document.write(a.fname);//to print property on document
+        //now lets print array
+        document.write(a.favmovies[0]);
+        document.write(a.salary());
+        //document.write(a.fullname());//there should be error that says fname not defined
+        //for this there is anothere way to write we sholud add this example this.fname , this.lname
+        document.write(a.fulname());
+        document.write("<br>" + a.livivng.country)//printing object on document
+
+        //Anothere way of writing object;
+        var person = new Object ();
+        person.firstname = "Ram";
+        person.Lastname = "kumar";
+        person.age = 25;
+
+        document.write(person);
+        document.write(person.firstname);
+    </script>
+</body>
+
+</html>

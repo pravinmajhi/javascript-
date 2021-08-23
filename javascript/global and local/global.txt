@@ -1,0 +1,10 @@
+var a = 10; ====> Global variables
+
+function functionName(){
+    var b = 25; ====> Local variables
+}
+
+DIFFERENCE BETWEEN THEM :
+*   The global variable on the Global can be printed within our out of the function
+
+* The Local variable can only be printed within function

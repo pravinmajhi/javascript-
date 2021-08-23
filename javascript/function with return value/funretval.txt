@@ -1,0 +1,3 @@
+just a another way to write function
+
+important use to connect function by returning function and passing the function

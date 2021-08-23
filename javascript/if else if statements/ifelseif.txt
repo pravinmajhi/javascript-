@@ -1,0 +1,28 @@
+TO PUT MULTIPLE CONDTIONS IS CALLED IF ELSE IF STATEMENT:
+
+EXAMPLE:
+
+if(condition 1){
+
+}else if(condition 2){
+
+}else{
+
+}
+
+REAL LIFE EXAMPLE:- 
+if(time < 10){
+    document.write("good morning");
+}else if(time < 20) {
+    document.write(" good day");
+}else{
+    document.write("good evening");
+}
+
+one more EXAMPLE:
+percnetage      grade 
+80 - 100%        merit
+60 - 79%         1st division
+45 - 59%         2nd division
+22 - 44%         3rd division
+less than 33%    fail

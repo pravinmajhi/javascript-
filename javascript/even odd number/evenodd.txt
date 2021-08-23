@@ -1,0 +1,1 @@
+takeing even and odd numbers from loop

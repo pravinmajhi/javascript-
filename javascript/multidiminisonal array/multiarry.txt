@@ -1,0 +1,10 @@
+IT MEANS PUTTING MULTIPILE ARRAYS ON ONE ARRAYS
+
+SYNTAX OF MULTIDIMENSIONAL ARRAYS?
+
+var a = [
+    ["harry","male","B.com",18]
+    ["Sunny","male","BCA",18]
+    ["Sarah","female","BCA",18]
+    ["Tom","female","B.A",18]
+];
